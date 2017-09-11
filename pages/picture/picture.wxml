@@ -1,0 +1,11 @@
+<view class="container">
+  <scroll-view class='movies' scroll-y="true" bindscrolltolower="getMovies">
+    <view wx:for="{{movies}}" class='movie2' wx:key="id" data-id="{{item.id}}" bindtap="getDetail">
+      <image class='movie-cover2' src='https://xiandean.com/test/hinaImages/{{item.mainImg}}' mode='aspectFill'></image>
+      <view class='movie-title'>
+        <text>{{item.title}}</text>
+        <view class='movie-desc'>{{item.desc}}</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

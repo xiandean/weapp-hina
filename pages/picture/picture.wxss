@@ -1,0 +1,7 @@
+.movie2 {
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+.movie-cover2 {
+  width: 100%;
+}

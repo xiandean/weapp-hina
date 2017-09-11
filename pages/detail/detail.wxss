@@ -1,0 +1,42 @@
+.detail {
+  padding: 20rpx 10rpx;
+}
+.detail-title-text {
+  padding-bottom: 20rpx;
+  display: block;
+}
+
+.detail-title {
+  font-size: 22px;
+  text-align: center;
+  padding: 20rpx 40rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+}
+.detail-desc {
+  color: #727171;
+  text-indent: 2em;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 10rpx;
+  padding: 20rpx 0;
+  border-top: 1px solid #ddd;
+}
+
+.detail-pictures {
+  margin-top: 40rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+.detail-img {
+  width: 100%;
+  margin-top: 10rpx;
+}
+.detail-url {
+  padding: 40rpx 0;
+  font-size: 14px;
+  text-align: center;
+  word-wrap: break-word;
+}

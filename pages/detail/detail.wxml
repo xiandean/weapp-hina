@@ -1,0 +1,19 @@
+<view class="container">
+  <view class='detail'>
+    <view class='detail-title'>
+      <text class='detail-title-text'>{{detail.title}}</text>
+      <view class='detail-desc'>{{detail.desc}}</view>
+    </view>
+
+    <view class='detail-pictures'>
+      <block wx:for="{{detail.detailImgs}}">
+        <image src='https://xiandean.com/test/hinaImages/{{item}}' class='detail-img' mode='widthFix'></image>
+      </block>
+    </view>
+
+    <view class='detail-url'>
+      <text selectable="true">{{detail.url}}</text>
+    </view>
+  </view>
+ 
+</view>

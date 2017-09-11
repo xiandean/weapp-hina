@@ -1,0 +1,38 @@
+{
+ "pages": [
+   "pages/index/index",
+   "pages/PC/PC",
+   "pages/H5/H5",
+   "pages/picture/picture",
+   "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hina",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_active.png"
+    }, {
+      "pagePath": "pages/PC/PC",
+      "text": "专题",
+      "iconPath": "image/reading.png",
+      "selectedIconPath": "image/reading_active.png"
+    }, {
+      "pagePath": "pages/H5/H5",
+      "text": "H5",
+      "iconPath": "image/music.png",
+      "selectedIconPath": "image/music_active.png"
+    }, {
+      "pagePath": "pages/picture/picture",
+      "text": "平面",
+      "iconPath": "image/movie.png",
+      "selectedIconPath": "image/movie_active.png"
+    }]
+  }
+}
